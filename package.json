@@ -1,5 +1,5 @@
 {
-  "name": "hello-firebase-auth",
+  "name": "react-firebase-auth",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
