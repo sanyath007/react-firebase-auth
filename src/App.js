@@ -1,9 +1,10 @@
 import React, { Component } from 'react'
 // import SigninForm from './components/SigninForm'
 import Header from './components/Header'
-import MessageList from './components/MessageList'
-import MessageBox from './components/MessageBox'
+// import MessageList from './components/MessageList'
+// import MessageBox from './components/MessageBox'
 // import LoginForm from './components/LoginForm'
+import FileUpload from './components/FileUpload'
 
 import firebase from './firebase'
 
@@ -25,7 +26,7 @@ class App extends Component {
                 <p>Please sign in :</p>
                 <SigninForm /> */}
 
-                <div className="columns">
+                {/* <div className="columns">
                     <div className="column is-3"></div>
                     <div className="column is-6">
                         <MessageList db={firebase} />
@@ -36,7 +37,8 @@ class App extends Component {
                     <div className="column is-6">
                         <MessageBox db={firebase} />
                     </div>
-                </div>
+                </div> */}
+                <FileUpload db={firebase} />
             </div>
         )
     }
